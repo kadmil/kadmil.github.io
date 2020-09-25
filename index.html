@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Victor Suzdalev</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Victor Suzdalev CV" />
+    <meta charset="UTF-8" />
+    <style>
+      :root {
+        --light-switcher: url("data:image/svg+xml;base64,CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEwMCAxMDA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBkPSJNMjEuMiw1MC4xQzIxLjIsNjYsMzQuMSw3OC45LDUwLDc4LjlTNzguOCw2Niw3OC44LDUwLjFjMC0xNS45LTEyLjktMjguOC0yOC44LTI4LjhTMjEuMiwzNC4yLDIxLjIsNTAuMXogTTUwLDI1LjMgIGMxMy43LDAsMjQuOCwxMS4xLDI0LjgsMjQuOGMwLDEzLjctMTEuMSwyNC44LTI0LjgsMjQuOFMyNS4yLDYzLjgsMjUuMiw1MC4xQzI1LjIsMzYuNCwzNi4zLDI1LjMsNTAsMjUuM3oiLz48cGF0aCBkPSJNNTEuMiw2OS4zdi00Yy05LDAtMTYuMy03LjMtMTYuMy0xNi4zaC00QzMwLjksNjAuMSw0MCw2OS4zLDUxLjIsNjkuM3oiLz48cmVjdCB4PSI0OCIgeT0iNSIgd2lkdGg9IjQiIGhlaWdodD0iMTAuNiIvPjxyZWN0IHg9IjQ4IiB5PSI4NC40IiB3aWR0aD0iNCIgaGVpZ2h0PSIxMC42Ii8+PHJlY3QgeD0iODQuNCIgeT0iNDgiIHdpZHRoPSIxMC42IiBoZWlnaHQ9IjQiLz48cmVjdCB4PSI1IiB5PSI0OCIgd2lkdGg9IjEwLjYiIGhlaWdodD0iNCIvPjxyZWN0IHg9IjcyLjgiIHk9IjE5LjkiIHRyYW5zZm9ybT0ibWF0cml4KDAuNzA3MSAtMC43MDcxIDAuNzA3MSAwLjcwNzEgNy4zNjA2IDYxLjYyOTEpIiB3aWR0aD0iMTAuNiIgaGVpZ2h0PSI0Ii8+PHJlY3QgeD0iMTYuNiIgeT0iNzYuMSIgdHJhbnNmb3JtPSJtYXRyaXgoMC43MDcxIC0wLjcwNzEgMC43MDcxIDAuNzA3MSAtNDguNzgyIDM4LjM3NTUpIiB3aWR0aD0iMTAuNiIgaGVpZ2h0PSI0Ii8+PHJlY3QgeD0iNzYuMSIgeT0iNzIuOCIgdHJhbnNmb3JtPSJtYXRyaXgoMC43MDcxIC0wLjcwNzEgMC43MDcxIDAuNzA3MSAtMzIuMzM3OCA3OC4wNjYzKSIgd2lkdGg9IjQiIGhlaWdodD0iMTAuNiIvPjxyZWN0IHg9IjE5LjkiIHk9IjE2LjYiIHRyYW5zZm9ybT0ibWF0cml4KDAuNzA3MSAtMC43MDcxIDAuNzA3MSAwLjcwNzEgLTkuMDgzNiAyMS45MjkxKSIgd2lkdGg9IjQiIGhlaWdodD0iMTAuNiIvPjwvc3ZnPgo=");
+        --dark-switcher: url("data:image/svg+xml;base64,CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEwMCAxMDA7IiBmaWxsPSIjZjFlZWRiIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBkPSJNNzIuNSw0Ny44Yy0wLjEtMC44LTAuNi0xLjUtMS40LTEuOGMtMC44LTAuMy0xLjYsMC0yLjEsMC42Yy0yLjYsMi45LTYuMiw0LjYtMTAuMSw0LjZjLTcuNCwwLTEzLjUtNi4xLTEzLjUtMTMuNSAgYzAtMi40LDAuNy00LjgsMS45LTYuOWMwLjQtMC43LDAuNC0xLjUtMC4xLTIuMmMtMC41LTAuNi0xLjMtMS0yLjEtMC44Yy0xMC4yLDIuMy0xNy42LDExLjUtMTcuNiwyMmMwLDEyLjQsMTAuMSwyMi41LDIyLjUsMjIuNSAgYzEyLjQsMCwyMi41LTEwLjEsMjIuNS0yMi41QzcyLjUsNDkuMiw3Mi41LDQ4LjUsNzIuNSw0Ny44eiBNNTAsNjguM2MtMTAuMiwwLTE4LjUtOC4zLTE4LjUtMTguNWMwLTcuMiw0LjItMTMuNiwxMC41LTE2LjcgIGMtMC40LDEuNS0wLjYsMy0wLjYsNC42YzAsOS43LDcuOCwxNy41LDE3LjUsMTcuNWMzLjQsMCw2LjctMSw5LjUtMi44QzY3LjEsNjEuMyw1OS4zLDY4LjMsNTAsNjguM3oiLz48cGF0aCBkPSJNODAuNyw1MGMwLTE2LjktMTMuOC0zMC43LTMwLjctMzAuN1MxOS4zLDMzLjEsMTkuMyw1MFMzMy4xLDgwLjcsNTAsODAuN1M4MC43LDY2LjksODAuNyw1MHogTTUwLDc2LjcgIGMtMTQuNywwLTI2LjctMTItMjYuNy0yNi43czEyLTI2LjcsMjYuNy0yNi43czI2LjcsMTIsMjYuNywyNi43UzY0LjcsNzYuNyw1MCw3Ni43eiIvPjwvc3ZnPgo=");
+      }
+      :root,
+      :root.light {
+        --main-color: #260a2f;
+        --link-color: #16161d;
+        --link-visited-color: #47045c;
+        --main-gradient-color: #f1eedb;
+        --accent-gradient-color: #ffe5cd;
+        --switcher: var(--light-switcher);
+      }
+      :root.dark {
+        --main-color: #f1eedb;
+        --link-color: #ffdd9c;
+        --link-visited-color: #ffcd5c;
+        --main-gradient-color: #16161d;
+        --accent-gradient-color: #110116;
+        --switcher: var(--dark-switcher);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root,
+        :root.dark {
+          --main-color: #f1eedb;
+          --link-color: #ffdd9c;
+          --link-visited-color: #ffcd5c;
+          --main-gradient-color: #16161d;
+          --accent-gradient-color: #110116;
+          --switcher: var(--dark-switcher);
+        }
+        :root.light {
+          --main-color: #260a2f;
+          --link-color: #16161d;
+          --link-visited-color: #47045c;
+          --main-gradient-color: #f1eedb;
+          --accent-gradient-color: #ffe5cd;
+          --switcher: var(--light-switcher);
+        }
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: border-box;
+      }
+      body {
+        line-height: 1.45;
+        font-size: 16px;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 24px 12px;
+        font-family: SF Mono, Menlo, Ubuntu Mono, Roboto Mono, monospace;
+        color: var(--main-color);
+        background: var(--main-gradient-color);
+        background: radial-gradient(
+          ellipse at bottom right,
+          var(--accent-gradient-color) 0%,
+          var(--accent-gradient-color) 15%,
+          var(--main-gradient-color) 65%,
+          var(--main-gradient-color) 100%
+        );
+      }
+      a {
+        color: var(--link-color);
+      }
+      a:visited {
+        color: var(--link-visited-color);
+      }
+      h1 {
+        margin-left: 64px;
+        margin-right: 64px;
+        position: relative;
+      }
+      h1:before {
+        content: "";
+        height: 48px;
+        width: 48px;
+        left: -64px;
+        position: absolute;
+        display: block;
+        background: no-repeat center url("/kadmil.jpg");
+        background-size: cover;
+        border-radius: 50%;
+      }
+      .theme-switch {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        right: -64px;
+        height: 48px;
+        width: 48px;
+        background: no-repeat center var(--switcher);
+        background-size: contain;
+        border-radius: 50%;
+      }
+      a {
+        color: var(--link-color);
+      }
+      a:visited {
+        color: var(--link-visited-color);
+      }
+      .lead {
+        margin-bottom: 16px;
+      }
+      .results::before {
+        content: "What I did: ";
+        font-weight: bold;
+      }
+      .about {
+        display: block;
+        margin-bottom: 12px;
+      }
+      .jobs {
+        display: flex;
+        flex-direction: column;
+      }
+      .job {
+        margin-bottom: 12px;
+      }
+      .misc {
+        order: 100;
+      }
+      @media (min-width: 450px) {
+        body {
+          padding: 24px 24px;
+        }
+      }
+      @media (min-width: 1024px) {
+        body {
+          padding: 36px 24px;
+        }
+        .jobs {
+          display: block;
+        }
+        .misc {
+          float: right;
+          width: 350px;
+          max-width: 40%;
+          padding-left: 36px;
+          padding-bottom: 36px;
+        }
+        .misc h2:first-child {
+          margin-top: 0;
+          display: block;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>
+      Victor Suzdalev
+      <div class="theme-switch"></div>
+    </h1>
+    <div class="lead">
+      Web developer shipping the right things. Work with startups for seven years, build MVPs and support successful ones. Make programmers happy with nice docs and dev infra.
+    </div>
+    <div class="jobs">
+      <div class="misc">
+        <h2>About me</h2>
+        <div class="contacts">
+          <h3>Contacts</h3>
+          <a href="mailto:victor.suzdalev@gmail.com"
+            >victor.suzdalev@gmail.com</a
+          >
+          <a href="https://t.me/kadmil">Telegram: @kadmil</a>
+        </div>
+        <div class="profiles">
+          <h3>Profies</h3>
+          <a href="https://github.com/kadmil">github.com/kadmil</a>
+          <a href="https://stackoverflow.com/users/1630437"
+            >stackoverflow.com/users/1630437</a
+          >
+          <a href="https://twitter.com/victor_suzdalev"
+            >twitter.com/victor_suzdalev</a
+          >
+          <a href="https://medium.com/@kadmil">medium.com/@kadmil</a>
+        </div>
+        <div class="tech">
+          <h3>Tech stack</h3>
+          React/Redux, Node.js, React Native, Webpack, PostgreSQL, ElasticSearch
+        </div>
+        <div class="education">
+          <h3>Education</h3>
+          Bachelor of Applied Mathematics, Master of Management, Southern
+          Federal University
+        </div>
+        <div class="sideprojects">
+          <h3>Side projects</h3>
+          <div class="project">
+            <a href="https://t.me/codehipsters">t.me/codehipsters (ru)</a>,
+            <a href="https://twitter.com/codehipsters"
+              >twitter.com/codehipsters (en)</a
+            >
+            daily&#8209;js like social media outlet
+          </div>
+          <div class="project">
+            <a href="https://southconf.ru/">South.Conf 2019, 2020</a> program
+            committee member
+          </div>
+        </div>
+      </div>
+      <h2>Selected projects</h2>
+      <div class="job">
+        <h3>JetBrains (Feb 2019–present)</h3>
+        <a href="https://jetbrains.com">jetbrains.com</a>
+        <div class="about">
+          JetBrains is a software development company whose tools are targeted
+          towards software developers and project managers. Company has a
+          dedicated team for creating and supporting all web properties
+        </div>
+        <div class="results">
+          My team was hired by JetBrains’ web team to enhance developer
+          infrastructure and tackle “special projects” like developing web
+          team’s design system and UI component library.
+        </div>
+      </div>
+      <div class="job">
+        <h3>Sidekick (March 2020 — July 2020)</h3>
+        <a href="https://meetsidekick.com">meetsidekick.com</a>
+        <div class="about">
+          Sidekick is a browser for personal and work productivity. The product
+          is built on top of Chromium, with most of the UI being a browser
+          extension with custom reactive JavaScript framework.
+        </div>
+        <div class="results">
+          optimization and rebuilding of the history search engine using web
+          workers and indexedDB
+        </div>
+      </div>
+      <div class="job">
+        <h3>Bitcannery (2017-2019)</h3>
+        <a href="https://bitcannery.net">bitcannery.net</a>
+        <a href="https://github.com/bitcannery">github.com/bitcannery</a>
+        <div class="about">
+          Bitcannery is a system designed to provide encryption with extendable
+          self-decryption time. In a nutshell, such encryption ensures that a
+          message is automatically decrypted after a certain point in the
+          future. This point in time can be deferred by the sender of the
+          message.
+        </div>
+        <div class="results">
+          crypto system and incentives design & documentation, smart contracts,
+          blockchain integration, client app.
+        </div>
+      </div>
+      <div class="job">
+        <h3>Turtle.ai (2015–2017)</h3>
+        <a href="https://turtle.ai">turtle.ai</a>
+        <div class="about">
+          Turtle is a platform and operating system to build and manage
+          on-demand software teams. It allows startups to build a team of top
+          quality developers, efficiently manage them and control the budget.
+          The company hired my team to build an initial prototype of the system,
+          but we ended up working with them for much longer and making several
+          iterations on the platform.
+        </div>
+        <div class="results">
+          initial prototype, system architecture, assembly of product
+          development and design teams, client apps, tech and product consulting
+        </div>
+      </div>
+      <div class="job">
+        <h3>Ficus.io (2014-2016)</h3>
+        <a href="https://ficus.io">ficus.io</a>
+        <div class="about">
+          Ficus.io is my team’s own project. It's the service for interactive
+          presentation: presenter could add real-time polls, receive questions,
+          gather feedback and listeners' contact data, mixing interactive
+          elements with regular slides. Users mentioned Ficus to be fun,
+          well-designed, and easy to use. One of the technically cool things we
+          did was using CRDT (conflict-free replicated data types) to always
+          show valid states and prevent any hiccups during our users'
+          presentations
+        </div>
+        <div class="results">
+          system architecture, client apps, PowerPoint extension app
+        </div>
+      </div>
+    </div>
+    <script>
+      const root = document.querySelector("html");
+      const themeTrigger = document.querySelector("h1");
+      themeTrigger.addEventListener("click", () => {
+        root.classList.toggle("dark");
+        root.classList.toggle("light");
+      });
+      if (window.matchMedia("(prefers-color-scheme: light)").matches) {
+        root.classList.remove("dark");
+        root.classList.add("light");
+      } else {
+        root.classList.add("dark");
+        root.classList.remove("light");
+      }
+    </script>
+  </body>
+</html>
